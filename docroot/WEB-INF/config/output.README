@@ -1,0 +1,3511 @@
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCIItoMIDI
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Midi
+# 
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ TunguScore.mid:	the audio file produced during the sonification process;
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - DataSet2Wave
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out: 	the standard output file;
+~ Text2Midi.err: 	the standard error file;
+~ Sonification.aiff: 	the audio file produced during the sonification process;
+~ Sound.data:		an ASCII representation about the sonified audio file
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+#
+# README - Sonification
+# Sonification Algorithm - ASCII2Midi
+#
+# Giuseppe LA ROCCA, INFN Catania
+# <mailto:giuseppe.larocca@ct.infn.it>
+#
+
+This application allows Science Gateway users to implements the sonification of data 
+by means of sound signals. 
+Generally speaking any sonification procedure is a mathematical mapping from a certain 
+data set (numbers, strings, images, ...) to a sound string.
+
+If the job has been successfully executed, the following files will be produced:
+~ Text2Midi.out:        the standard output file;
+~ Text2Midi.err:        the standard error file;
+~ message.mid:		the audio file produced during the sonification process.
+
+- About the MIDI Toolbox
+The MIDI Toolbox is a compilation of functions for analyzing and visualizing MIDI files in the Matlab computing environment. 
+Besides simple manipulation and filtering functions, the toolbox contains cognitively inspired analytic techniques that are 
+suitable for context-dependent musical analysis that deal with such topics as melodic contour, similarity, key-finding, 
+meter-finding and segmentation.
+
+- Citation
+Eerola, T. & Toiviainen, P. (2004) 
+MIDI Toolbox: MATLAB Tools for Music Research 
+University of Jyväskylä: Kopijyvä, Jyväskylä, Finland 
+Available at http://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/

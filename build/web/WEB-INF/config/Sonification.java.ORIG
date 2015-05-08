@@ -1,0 +1,473 @@
+/*********************************************
+
+Etna SONIFICATION
+SCALE: YES
+INTERPOLATION: YES
+INTERPOLATION METHOD: LINEAR
+
+*********************************************/
+import javax.sound.sampled.*;
+import java.io.*;
+import java.nio.channels.*;
+import java.nio.*;
+import java.util.*;
+
+import java.util.*; //splitter
+
+public class Sonification {
+  AudioFormat audioFormat;
+  AudioInputStream audioInputStream;
+  SourceDataLine sourceDataLine;
+  float sampleRate = 22050.0F;
+  int sampleSizeInBits = 16;
+  int channels = 1;
+  boolean signed = true;
+  boolean bigEndian = true;
+
+  double duration=60;
+  //Allaowabe any duration in seconds
+   
+  //A buffer to hold two seconds monaural and one
+  // second stereo data at 16000 samp/sec for
+  // 16-bit samples
+  byte audioData[] = new byte[(int)(sampleRate*duration*2)];
+
+
+  //-------------------------------------------//
+  public static void main(String args[]){
+
+    if ( args[0].equals("") )
+    {
+      System.out.println("No file input provided, exiting...");
+      System.exit(127);
+    }
+    new Sonification(args[0]);
+    
+  }//end main
+  //-------------------------------------------//
+
+  public Sonification(String file){//constructor
+    new SynGen(file).getSyntheticData(audioData);
+
+    playAndStoreData();
+  }//end constructor
+  
+  private void playAndStoreData() {
+    try {
+      InputStream byteArrayInputStream = new ByteArrayInputStream(audioData);
+
+      audioFormat = new AudioFormat(sampleRate, 
+	  			    sampleSizeInBits, 
+				    channels, 
+				    signed, 
+				    bigEndian);
+
+      audioInputStream = new AudioInputStream(byteArrayInputStream, 
+		 			      audioFormat, 
+					      audioData.length/audioFormat.getFrameSize());
+                                   
+        try {
+          AudioSystem.write(
+                    audioInputStream,
+                    AudioFileFormat.Type.AIFF,
+                    new File("Sonification"+".aiff"));
+
+        } catch (Exception e) { e.printStackTrace(); System.exit(0); } //end catch
+    } catch (Exception e) { e.printStackTrace(); System.exit(0); } //end catch
+  } //end playAndStoreData
+  //=============================================//
+
+class SynGen{
+  ByteBuffer byteBuffer;
+  ShortBuffer shortBuffer;
+  int byteLength;
+  String name = "";
+
+  SynGen(String file)
+  {
+     name = file;	     
+  }
+ 
+  void getSyntheticData(byte[] synDataBuffer)
+  {
+    byteBuffer = ByteBuffer.wrap(synDataBuffer);
+    shortBuffer = byteBuffer.asShortBuffer();
+    
+    byteLength = synDataBuffer.length;
+    synthesize();
+  }//end getSyntheticData method
+
+  void synthesize()
+  {
+    channels = 1;//Java allows 1 or 2
+    int bytesPerSamp = 2;
+    sampleRate = 22050.0F;
+    // Allowable 8000,11025,16000,22050,44100
+    int sampLength = byteLength/bytesPerSamp;
+    double bufferForSpectrum[];
+    bufferForSpectrum = new double [sampLength];
+          
+    //BEGIN Sonification PARAMETERS************************************
+    //String filename="tungu_tot.dat";
+    String filename= name;
+    System.out.println(filename);
+    double originalSamplingFreq=100; //DO NOT MODIFY 
+                                         //Sonification of geophysical data sampled at 100 Hz
+    double resampleFreq=10;
+    double scalefactor=2;
+    double holdfactor=(sampleRate/originalSamplingFreq)/resampleFreq;
+    int datatype=1;
+    // 0 --> one line ASCII file, data separated by <space>
+    // 1 --> more lines ASCII file, data separated by <return>	
+
+    //END Sonification PARAMETERS**************************************
+        
+    String aLine = "";
+    String bLine = "";
+    double value=0;
+    double value0=0;
+
+    double max=value;
+    double min=value;
+    double slope=0;
+    double nextvalue=value;
+    String [] values = null;    
+        
+    int nsamplesHold=(int)holdfactor;
+        
+    if (datatype==1)
+    {
+        try { 
+	  //calculate scale factor and normalization
+          int cnt=0;
+          FileInputStream fin =  new FileInputStream(filename);
+          BufferedReader myInput = new BufferedReader (new InputStreamReader(fin));     
+          aLine=aLine = myInput.readLine();          
+          try {
+             value = Double.valueOf(aLine.trim()).doubleValue();
+             //System.out.println("value = " + value);
+            } catch (NumberFormatException nfe) {
+              System.out.println("NumberFormatException: " + nfe.getMessage());
+            }
+
+          max=value;
+          min=value;
+
+          while (((aLine = myInput.readLine()) != null) && (cnt<sampLength))
+	  {
+            // Convert aLine into a double value
+            try {
+             value = Double.valueOf(aLine.trim()).doubleValue();
+             //System.out.println("value = " + value);
+            } catch (NumberFormatException nfe) { System.out.println("NumberFormatException: " + nfe.getMessage()); }
+            if (value>max) max=value;
+            if (value<min) min=value;
+            cnt++;
+          } //end while
+        } catch( Exception e ) {
+             e.printStackTrace();
+        }//end catch
+
+        System.out.println("Max value = " + max);
+        System.out.println("Min value = " + min);
+
+        try {
+          int cnt=0;
+          FileInputStream fin =  new FileInputStream(filename);
+          BufferedReader myInput = new BufferedReader (new InputStreamReader(fin));     
+          aLine = myInput.readLine();
+
+          // first computation out of loop
+          try {
+             value = Double.valueOf(aLine.trim()).doubleValue();
+             ///System.out.println("first in buffer = " + value);
+             value=value-(double)(max+min)/(double)2;
+             value=(double)value/(double)(max-min);
+             value=scalefactor*value;
+             ///System.out.println("first in buffer (after scaling) = " + value);
+            } catch (NumberFormatException nfe) {
+              System.out.println("NumberFormatException: " + nfe.getMessage());
+            }
+          shortBuffer.put((short)(sampleRate*value));
+          bufferForSpectrum[cnt]=(double)(sampleRate*value);
+          cnt++;
+          bLine = myInput.readLine();
+          // second computation out of loop
+          try {
+             nextvalue = Double.valueOf(bLine.trim()).doubleValue();
+             ///System.out.println("second value in buffer = " + nextvalue);
+             nextvalue=nextvalue-(double)(max+min)/(double)2;
+             nextvalue=(double)nextvalue/(double)(max-min);
+             nextvalue=scalefactor*nextvalue;
+             ///System.out.println("second in buffer (after scaling) = " + nextvalue);
+            } catch (NumberFormatException nfe) {
+              System.out.println("NumberFormatException: " + nfe.getMessage());
+            }
+          slope=(nextvalue-value)/holdfactor;
+         /// System.out.println("**nextvalue = " + nextvalue);
+         /// System.out.println("**value     = " + value);
+         /// System.out.println("**holdfacto = " + holdfactor);
+         /// System.out.println("**slope     = " + slope);
+          
+
+          double step=1;
+          value0=value;
+          while ((aLine !=null) && (cnt<sampLength)){
+            if (cnt<=nsamplesHold){
+              ///System.out.print("Slope: "+slope+ " ");
+              value=value0+slope*step;
+              ///System.out.print("Step: "+step+ " ");
+              ///System.out.println("scaled value in buffer = " + value);
+              shortBuffer.put((short)(sampleRate*value));
+              bufferForSpectrum[cnt]=(double)(sampleRate*value);
+              cnt++;
+              step++;
+            } else {
+              nsamplesHold=nsamplesHold+(int)holdfactor;
+              //reset step
+              step=1;
+              aLine = myInput.readLine();
+              // Convert aLine into a double value
+              try {
+               //set new value0 as last value of the previous slope
+               value0=value;
+               //get next value
+               nextvalue = Double.valueOf(aLine.trim()).doubleValue();
+               ///System.out.println("-> Got next value in buffer = " + nextvalue);
+               nextvalue=nextvalue-(double)(max+min)/(double)2;
+               nextvalue=(double)nextvalue/(double)(max-min);
+               nextvalue=scalefactor*nextvalue;
+               //calculate new slope
+               slope=(nextvalue-value)/holdfactor;              
+              } catch (NumberFormatException nfe) {
+                System.out.println("NumberFormatException: " + nfe.getMessage());
+              }
+            }  
+          }
+            
+        } catch( Exception e ) {
+             e.printStackTrace();
+        }//end catch
+        
+        
+        
+     }  else // if (datatype==1)
+     {
+     
+      //data example: 12 0 -3 3 2 0 3 12 40 6 54 3
+     
+   
+        try{ //calculate scale factor and normalization
+          int cnt=0;
+          FileInputStream fin =  new FileInputStream(filename);
+          BufferedReader myInput = new BufferedReader (new InputStreamReader(fin));     
+          aLine=aLine = myInput.readLine(); 
+          values=aLine.split(" ");   
+          try {
+             value = Double.valueOf(values[0]).doubleValue();
+             //System.out.println("value = " + value);
+            } catch (NumberFormatException nfe) {
+              System.out.println("NumberFormatException: " + nfe.getMessage());
+            }
+          max=value;
+          min=value;
+          cnt++;
+          while ((cnt<values.length) && (cnt<sampLength)){
+            // Convert aLine into a double value
+            try {
+             value = Double.valueOf(values[cnt]).doubleValue();
+             //System.out.println("value = " + value);
+            } catch (NumberFormatException nfe) {
+              System.out.println("NumberFormatException: " + nfe.getMessage());
+            }
+            if (value>max){
+              max=value;
+            } else
+            if (value<min){
+              min=value;
+            }
+            cnt++;
+          } //end while
+        } catch( Exception e ) {
+             e.printStackTrace();
+            }//end catch
+
+        System.out.println("Max value = " + max);
+        System.out.println("Min value = " + min);
+
+        try{
+          int cnt=0;
+          // first computation out of loop
+          try {
+             value =Double.valueOf(values[0]).doubleValue();
+             ///System.out.println("first in buffer = " + value);
+             value=value-(double)(max+min)/(double)2;
+             value=(double)value/(double)(max-min);
+             value=scalefactor*value;
+             ///System.out.println("first in buffer (after scaling) = " + value);
+            } catch (NumberFormatException nfe) {
+              System.out.println("NumberFormatException: " + nfe.getMessage());
+            }
+          shortBuffer.put((short)(sampleRate*value));
+          bufferForSpectrum[cnt]=(double)(sampleRate*value);
+          cnt++;
+          // second computation out of loop
+          try {
+             nextvalue = Double.valueOf(values[cnt]).doubleValue();
+             ///System.out.println("second value in buffer = " + nextvalue);
+             nextvalue=nextvalue-(double)(max+min)/(double)2;
+             nextvalue=(double)nextvalue/(double)(max-min);
+             nextvalue=scalefactor*nextvalue;
+             ///System.out.println("second in buffer (after scaling) = " + nextvalue);
+            } catch (NumberFormatException nfe) {
+              System.out.println("NumberFormatException: " + nfe.getMessage());
+            }
+          slope=(nextvalue-value)/holdfactor;
+          //System.out.println("**nextvalue = " + nextvalue);
+          //System.out.println("**value     = " + value);
+          //System.out.println("**holdfacto = " + holdfactor);
+          //System.out.println("**slope     = " + slope);
+          
+
+          double step=1;
+          value0=value;
+          while ((cnt<values.length-1) && (cnt<sampLength)){
+            if (cnt<=nsamplesHold){
+              //System.out.print("Slope: "+slope+ " ");
+              value=value0+slope*step;
+              //System.out.print("Step: "+step+ " ");
+              //System.out.println("scaled value in buffer = " + value);
+              shortBuffer.put((short)(sampleRate*value));
+              bufferForSpectrum[cnt]=(double)(sampleRate*value);
+              cnt++;
+              step++;
+            } else {
+            
+              nsamplesHold=nsamplesHold+(int)holdfactor;
+              //reset step
+              step=1;
+              value=Double.valueOf(values[cnt]).doubleValue();
+              // Convert aLine into a double value
+              try {
+               //set new value0 as last value of the previous slope
+               value0=value;
+               //get next value
+               nextvalue = Double.valueOf(values[cnt+1]).doubleValue();
+               ///System.out.println("-> Got next value in buffer = " + nextvalue);
+               nextvalue=nextvalue-(double)(max+min)/(double)2;
+               nextvalue=(double)nextvalue/(double)(max-min);
+               nextvalue=scalefactor*nextvalue;
+               //calculate new slope
+               slope=(nextvalue-value)/holdfactor;              
+              } catch (NumberFormatException nfe) {
+                System.out.println("NumberFormatException: " + nfe.getMessage());
+              }
+             
+             //System.out.println("Not yet implemented"); 
+            }  
+          }
+            
+        } catch( Exception e ) {
+             e.printStackTrace();
+        }//end catch
+     
+     
+     
+     } //end of if (datavalue==1)
+        
+
+
+
+    
+    //  Writing Sound datafile as ASCII 
+    try{
+      String outputFileName = "Sound.dat";
+      FileWriter outputFileReader  = new FileWriter(outputFileName);   
+      PrintWriter    outputStream  = new PrintWriter(outputFileReader);
+      for (int a=0; a<sampLength; a++){
+          //System.out.print(bufferForSpectrum[a] + "\t");
+          outputStream.print(a);
+          outputStream.print("\t");
+          outputStream.println(bufferForSpectrum[a]); 
+      }
+    } catch (IOException e) {
+
+            System.out.println("IOException:");
+            e.printStackTrace();
+    }
+
+    /** 
+    //DFT computation
+    int dataLen = sampLength;
+    int outputLen = dataLen;
+    int spectrumPts = outputLen;
+    //Create arrays for the data and
+    // the results.
+    double[] output =
+                 new double[outputLen];
+    double[] spectrum =
+               new double[spectrumPts];
+    Dft.dft(duration,bufferForSpectrum, spectrumPts, spectrum);     
+    // Writing DFT output on disk 
+    try{
+      String outputFileName = "Spectrum.dat";
+      FileWriter outputFileReader  = new FileWriter(outputFileName);   
+      PrintWriter    outputStream  = new PrintWriter(outputFileReader);
+      for (int a=0; a<sampLength; a++){
+          //System.out.print(spectrum[a] + "\t");
+          outputStream.print(a);
+          outputStream.print("\t");
+          outputStream.println(spectrum[a]); 
+      }
+    } catch (IOException e) {
+
+            System.out.println("IOException:");
+            e.printStackTrace();
+      }
+
+      */
+
+
+  }//end method Synthesize
+
+}//end SynGen class
+//=============================================//
+
+
+
+public static class Dft{
+  public static void dft(double duration,
+                    double[] data,
+                    int dataLen,
+                    double[] spectrum){
+    //Set the frequency increment to
+    // the reciprocal of the data
+    // length.  This is convenience
+    // only, and is not a requirement
+    // of the DFT algorithm.
+    double delF = duration/dataLen;
+    //Outer loop iterates on frequency
+    // values.
+    for(int i=0; i < dataLen;i++){
+      double freq = i*delF;
+      double real = 0;
+      double imag = 0;
+      //Inner loop iterates on time-
+      // series points.
+      for(int j=0; j < dataLen; j++){
+        real += data[j]*Math.cos(
+                     2*Math.PI*freq*j);
+        imag += data[j]*Math.sin(
+                     2*Math.PI*freq*j);
+        spectrum[i] = Math.sqrt(
+                real*real + imag*imag);
+      }//end inner loop
+    }//end outer loop
+  }//end dft
+
+}//end Dft01
+
+
+
+
+}//end outer class Sonification.java

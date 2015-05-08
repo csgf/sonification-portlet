@@ -1,0 +1,327 @@
+import jm.JMC;
+import jm.music.data.*;
+import jm.music.tools.*;
+import jm.util.*;
+import java.io.*;
+import java.util.Random;
+import java.lang.Math;
+
+
+import java.sql.*;
+
+//MIDI Controller features
+import javax.sound.midi.*;
+import javax.swing.*;
+
+public class Text2Midi implements JMC {
+        
+        public static void main(String[] args) {
+         if (args.length>0){
+           new Text2Midi(args[0]);
+         } else {
+           String name="";
+           new Text2Midi(name);
+         }
+    }
+    
+        public Text2Midi(String name) {
+   String aLine = "";
+   String bLine = "";
+   double value=0;
+   double value0=0;
+   double max=value;
+   double min=value;
+   double slope=0;
+   int intvalue=(int)value;
+   int n_of_notes=0;
+   double nextvalue=value;
+   String tot_message="";
+   String language_selector="";
+   
+
+   /////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////
+   //Reading from file
+
+//   String filename="portrait.txt";
+   String filename="message2.txt";
+   if (name!=""){
+     filename=name;
+   }
+   try{ //calculate scale factor and normalization
+       int cnt=0;
+       FileInputStream fin =  new FileInputStream(filename);
+       BufferedReader myInput = new BufferedReader (new InputStreamReader(fin));     
+       while ((aLine = myInput.readLine()) != null){
+          tot_message=tot_message+removeSpaces(aLine);       
+       }  
+       
+    }catch( Exception e ) {
+         e.printStackTrace();
+    }//end catch
+   /////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////
+   
+
+   int max_number_of_notes=tot_message.length(); 
+
+   System.out.println("--> Database acquired \n-->message = " + tot_message+"\n");
+   
+   
+          ////////////////////////////////////////////
+          //MUSICAL SETTINGS
+          //SET HERE THE MUSICAL SCALE 
+          // 0 = dodecafonic
+          // 1 = diatonic
+          // 2 = blues
+          // 3 = pentatonic
+          // 4 = whole tones
+          int musicalscale= 1;
+
+          // SET HERE THE SPEED
+          // 1 = fast
+          // 2 = slow
+          int speed =2;
+          ////////////////////////////////////////////
+
+   
+          min=1;
+          max=255;
+          
+          n_of_notes=tot_message.length(); 
+          int[] pitches = new int[n_of_notes];
+          Note[] notes = new Note[n_of_notes];
+          int[] values = new int[n_of_notes];
+
+          //convert the message lowecase
+          //tot_message=tot_message.toLowerCase();
+
+
+
+   try{ //calculate scale factor and normalization
+          int cnt=0;
+          int sw=-1;
+          
+          
+
+          System.out.println("String length = "+ tot_message.length());
+          while (cnt<tot_message.length()) { 
+            char letter=tot_message.charAt(cnt);
+            
+             value=(int)letter;
+             value=(int)value*2;
+             values[cnt]=(int)letter;
+             System.out.println("char="+letter);
+           int midiPitch=0;
+           int randInt;
+
+           intvalue=(int)letter;
+           if (musicalscale==0){
+
+            //  DODECAFONIC 
+              midiPitch=(int)((value-(max+min)/2)*(65-0)/(max-min))+65;
+            //
+           } else
+           if (musicalscale==1){
+            //  DIATONIC 
+               //System.out.println("Resto: "  +intvalue % 7);
+               switch (intvalue % 7){
+                 case 0: midiPitch=(int) 60; 
+                         break;
+                 case 1: midiPitch=(int) 62;
+                         break;
+                 case 2: midiPitch=(int) 64;
+                         break;
+                 case 3: midiPitch=(int) 65;
+                         break;
+                 case 4: midiPitch=(int) 67;
+                         break;
+                 case 5: midiPitch=(int) 69;
+                         break;
+                 case 6: midiPitch=(int) 71;
+                         break;
+                 default: midiPitch=(int) 0;
+               }
+               System.out.println("midiPitch: "+midiPitch);
+               //randInt = (int) (Math.random() * 2) + 1; 
+               //System.out.println("random: "+randInt);
+               //midiPitch=(int)(midiPitch+(int)12*(randInt-2));
+            //
+           } else
+           if (musicalscale==2){
+            //  BLUES 
+               //System.out.println("Resto: "  +intvalue % 6);
+               switch (intvalue % 6){
+                 case 0: midiPitch=(int) 60; 
+                         break;
+                 case 1: midiPitch=(int) 63;
+                         break;
+                 case 2: midiPitch=(int) 65;
+                         break;
+                 case 3: midiPitch=(int) 66;
+                         break;
+                 case 4: midiPitch=(int) 67;
+                         break;
+                 case 5: midiPitch=(int) 70;
+                         break;
+                 default: midiPitch=(int) 0;
+               }
+               System.out.println("midiPitch: "+midiPitch);
+               randInt = (int) (Math.random() * 2) + 1; 
+               //System.out.println("random: "+randInt);
+               midiPitch=(int)(midiPitch+(int)12*(randInt-2));
+
+               //sw=sw*(-1);
+               //midiPitch=(int)(midiPitch+12*sw);
+            //
+           } else 
+           if (musicalscale==3){
+            //  PENTATONIC 
+               //System.out.println("Resto: "  +intvalue % 5);
+               switch (intvalue % 5){
+                 case 0: midiPitch=(int) 61; 
+                         break;
+                 case 1: midiPitch=(int) 63;
+                         break;
+                 case 2: midiPitch=(int) 66;
+                         break;
+                 case 3: midiPitch=(int) 68;
+                         break;
+                 case 4: midiPitch=(int) 78;
+                         break;
+                 default: midiPitch=(int) 0;
+               }
+               System.out.println("midiPitch: "+midiPitch);
+               randInt = (int) (Math.random() * 2) + 1; 
+               //System.out.println("random: "+randInt);
+               midiPitch=(int)(midiPitch+(int)12*(randInt-2));
+            //
+           } else
+           if (musicalscale==4){
+            //  WHOLE TONE 
+               //System.out.println("Resto: "  +intvalue % 6);
+               switch (intvalue % 6){
+                 case 0: midiPitch=(int) 60; 
+                         break;
+                 case 1: midiPitch=(int) 62;
+                         break;
+                 case 2: midiPitch=(int) 64;
+                         break;
+                 case 3: midiPitch=(int) 66;
+                         break;
+                 case 4: midiPitch=(int) 68;
+                         break;
+                 case 5: midiPitch=(int) 70;
+                         break;
+                 default: midiPitch=(int) 0;
+               }
+               System.out.println("midiPitch: "+midiPitch);
+               randInt = (int) (Math.random() * 2) + 1; 
+               //System.out.println("random: "+randInt);
+               midiPitch=(int)(midiPitch+(int)12*(randInt-2));
+            //
+           } 
+            
+            
+            System.out.println("midiPitch = "+midiPitch);
+            if (midiPitch<0) midiPitch=0;
+            if (midiPitch>127) midiPitch=0;
+            pitches[cnt]=midiPitch;
+
+            cnt++;
+          } //end while
+      } catch( Exception e ) {
+             e.printStackTrace();
+      }//end catch
+
+
+
+
+
+        System.out.println("Creating MIDI...");
+        System.out.println("Note processed:" + n_of_notes);
+          for (int i = 0; i < notes.length; i++) {
+           // notes[i] = new Note(pitches[i], DEMI_SEMI_QUAVER * 4 * speed);
+           if ((values[i]==65) || (values[i]==69) || (values[i]==73) || (values[i]==79) || 
+              (values[i]==85) || (values[i]==89) || (values[i]==97) || (values[i]==101) || 
+              (values[i]==105) || (values[i]==111)  || (values[i]==117) || (values[i]==121)){
+               
+               notes[i] = new Note(pitches[i], DEMI_SEMI_QUAVER * 4 *speed);
+           } else {
+               notes[i] = new Note(pitches[i], DEMI_SEMI_QUAVER * 2 *speed);
+            }
+          }
+         // A phrase is made up of notes
+         Phrase phrase = new Phrase(notes);
+         Part pianoPart = new Part("Piano", PIANO);
+         //Part pianoPart = new Part("Flute", FLUTE);
+         // A part is made up of phrases 
+         pianoPart.add(phrase);
+         // A score is made up of part(s)
+         int tempo = 120;
+         Score Text2Midi = new Score("Score from wyp2005 messages sonification. (c) D. Vicinanza", tempo, pianoPart);
+         // In key of C: 0 flat
+         Text2Midi.setKeySignature(0);
+         // In 4/4 time
+         Text2Midi.setNumerator(4);
+         Text2Midi.setDenominator(4);
+         // Display score in standard musical notation
+         //View.notate(Text2Midi);
+         // Write out score to MIDI file
+         Write.midi(Text2Midi, "messages.mid");
+         
+         
+
+
+         
+       }
+       
+    static String removeSpaces(String withSpaces) {
+        java.util.StringTokenizer t = new java.util.StringTokenizer(withSpaces, " ");
+        StringBuffer result = new StringBuffer("");
+        while (t.hasMoreTokens()) {
+            result.append(t.nextToken());
+        }
+        return result.toString();
+    }   
+    
+    int dodecafonic(double value, double max, double min){
+       int midiPitch;
+       midiPitch=(int)((value-(max+min)/2)*(65-0)/(max-min))+65;
+       return midiPitch;
+    }    
+    
+    	private byte[] ConvertStringToByte(String str)
+	{
+		int i;
+		byte[] byteStr = new byte[str.length()];
+		
+		str.getBytes(0,str.length(),byteStr,0);
+		
+		return byteStr;	
+	}
+	
+
+
+
+} //end of global class
+
+  class AppendFileStream extends OutputStream {
+   RandomAccessFile fd;
+   public AppendFileStream(String file) throws IOException {
+     fd = new RandomAccessFile(file,"rw");
+     fd.seek(fd.length());
+     }
+   public void close() throws IOException {
+     fd.close();
+     }
+   public void write(byte[] b) throws IOException {
+     fd.write(b);
+     }
+   public void write(byte[] b,int off,int len) throws IOException {
+     fd.write(b,off,len);
+     }
+   public void write(int b) throws IOException {
+     fd.write(b);
+     }
+   }

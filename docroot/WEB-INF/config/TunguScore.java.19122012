@@ -1,0 +1,204 @@
+import jm.JMC;
+import jm.music.data.*;
+import jm.music.tools.*;
+import jm.util.*;
+import java.io.*;
+
+//MIDI Controller features
+import javax.sound.midi.*;
+import javax.swing.*;
+
+public class TunguScore implements JMC {
+
+   int getMaxNotes (String filename)
+   {
+        int max_number_of_notes = 0;
+        String aLine = "";
+
+	try {
+	        FileInputStream fin =  new FileInputStream(filename);
+        	BufferedReader myInput = new BufferedReader (new InputStreamReader(fin));  
+
+	        while ((aLine = myInput.readLine()) != null)  max_number_of_notes++;
+	} catch( Exception e ) { e.printStackTrace(); }
+
+        return max_number_of_notes;
+   }
+        
+   public static void main(String[] args) {
+                 new TunguScore();
+    }
+    
+   public TunguScore() 
+   {
+   String aLine = "";
+   String bLine = "";
+   String filename="tungu_tot.dat";
+   double value=0;
+   double value0=0;
+   double max=value;
+   double min=value;
+   double slope=0;
+   int n_of_notes=0;
+   int max_number_of_notes = getMaxNotes(filename);
+   double nextvalue=value;
+
+   try{ //calculate scale factor and normalization
+          
+          FileInputStream fin =  new FileInputStream(filename);
+          BufferedReader myInput = new BufferedReader (new InputStreamReader(fin));     
+          aLine=aLine = myInput.readLine();          
+          try {
+             value = Double.valueOf(aLine.trim()).doubleValue();
+             //System.out.println("value = " + value);
+            } catch (NumberFormatException nfe) {
+              System.out.println("NumberFormatException: " + nfe.getMessage());
+            }
+          
+          max=value;
+          min=value;
+
+          while (((aLine = myInput.readLine()) != null)  && (n_of_notes<max_number_of_notes)){
+            // Convert aLine into a double value
+            try {
+             value = Double.valueOf(aLine.trim()).doubleValue();
+             //System.out.println("value = " + value);
+            } catch (NumberFormatException nfe) {
+              System.out.println("NumberFormatException: " + nfe.getMessage());
+            }
+            if (value>max) max=value;
+            else if (value<min) min=value;
+            
+            n_of_notes++;
+          } //end while
+      } catch( Exception e ) {
+             e.printStackTrace();
+      }//end catch
+
+        System.out.println("Max value = " + max);
+        System.out.println("Min value = " + min);
+
+          int[] pitches = new int[n_of_notes+1];
+          Note[] notes = new Note[n_of_notes+1];
+
+
+
+   try{ 
+	  //calculate scale factor and normalization
+          int cnt=0;
+          FileInputStream fin =  new FileInputStream(filename);
+          BufferedReader myInput = new BufferedReader (new InputStreamReader(fin));     
+          aLine=aLine = myInput.readLine();
+
+          try {
+             value = Double.valueOf(aLine.trim()).doubleValue();
+             //System.out.println("value = " + value);
+          } catch (NumberFormatException nfe) {
+              System.out.println("NumberFormatException: " + nfe.getMessage());
+          }
+
+          while (((aLine = myInput.readLine()) != null) && (cnt<max_number_of_notes))
+	  {
+            // Convert aLine into a double value
+            try {
+             value = Double.valueOf(aLine.trim()).doubleValue();
+             System.out.println("value = " + value);
+            } catch (NumberFormatException nfe) {
+	      System.out.println("NumberFormatException: " + nfe.getMessage());
+            }
+            
+	    //int midiPitch=(int)((value-((max+min)/2))*4)+65; //normalize to Central C
+            int midiPitch=(int)((value-(max+min)/2)*(65-0)/(max-min))+65;
+            System.out.println("midiPitch = "+midiPitch);
+            if (midiPitch<0) midiPitch=0;
+            if (midiPitch>127) midiPitch=127;
+            pitches[cnt]=midiPitch;
+
+            cnt++;
+          } //end while
+      } catch( Exception e ) {
+             e.printStackTrace();
+      }//end catch
+
+
+        System.out.println("Creating MIDI...");
+        System.out.println("Note processed:" + max_number_of_notes);
+          for (int i = 0; i < notes.length; i++) {
+             //notes[i] = new Note(pitches[i], DEMI_SEMI_QUAVER * (int)(Math.random()*8 + 1));
+             notes[i] = new Note(pitches[i], DEMI_SEMI_QUAVER * 2);
+          }
+
+         // A phrase is made up of notes
+         Phrase phrase = new Phrase(notes);
+         Part pianoPart = new Part("Piano", PIANO);
+         //Part pianoPart = new Part("Flute", FLUTE);
+         // A part is made up of phrases 
+         pianoPart.add(phrase);
+         // A score is made up of part(s)
+         int tempo = 120;
+         Score TunguScore = new Score("Score from Tungurauha seismograph.data", tempo, pianoPart);
+         // In key of C: 0 flat
+         TunguScore.setKeySignature(0);
+         // In 4/4 time
+         TunguScore.setNumerator(4);
+         TunguScore.setDenominator(4);
+         // Display score in standard musical notation
+         ////View.notate(TunguScore);
+         // Write out score to MIDI file
+         Write.midi(TunguScore, "TunguScore.mid");
+         
+/**         
+    //MIDI OUT (Using Plumstone)
+    try {
+      // See all the midi devices on the system
+      MidiDevice.Info[] info = MidiSystem.getMidiDeviceInfo();
+
+      // Display all the available devices
+      for (int i=0; i<info.length; i++) {
+        System.out.println ("Device Info [" + i + "]=" + info [i]);
+      } // for
+      
+      MidiDevice.Info outputDeviceInfo = 
+        (MidiDevice.Info) JOptionPane.showInputDialog (null,
+                                                       "Select OUTPUT MIDI Device",
+                                                       "PlumStone Deployment Tester",
+                                                       JOptionPane.QUESTION_MESSAGE,
+                                                        null,
+                                                       info,
+                                                       null);
+        
+      // Test output to some midi device
+      System.out.println ("Testing Midi Output...");
+      MidiDevice outputPort = MidiSystem.getMidiDevice (outputDeviceInfo);
+      outputPort.open ();
+      Receiver r = outputPort.getReceiver ();
+      System.out.println ("Output Port = " + outputPort);
+      System.out.println ("Receiver = " + r);
+
+      // Create short message structure
+      ShortMessage note = new ShortMessage ();
+      Thread.sleep (1000L);
+
+      // Play the notes of the scale
+      // i should start from 0, here it has been set "int i=1" to correctly calculate
+      // pitches[i]-pitches[i-1] in the Thread.sleep () function call
+      for (int i=0; i<pitches.length; i++) {
+        note.setMessage (ShortMessage.NOTE_ON, 1, pitches [i], 127);
+        r.send (note, -1L);
+        Thread.sleep (75L);
+        //Thread.sleep (50*(int)Math.abs(pitches[i]-pitches[i-1]));
+        note.setMessage (ShortMessage.NOTE_OFF, 1, pitches [i], 127);
+        r.send (note, -1L);
+        Thread.sleep (50L);
+      } // for
+    }
+    catch (Exception e) {
+      // Oops! Should never get here
+      System.out.println ("Exception in PlumStone Deployment Tester main ()");
+      System.out.println (e);
+      System.exit (0);
+    }
+         
+ */         
+       }
+}
