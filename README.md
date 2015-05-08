@@ -25,7 +25,7 @@ Data sonification is currently used in several fields, for different purposes: s
 <tr>
 <td><a href="http://www.infn.it/"><img width="100" src="http://www.infn.it/logo/weblogo1b.gif" border="0" title="The INFN Home Page"></a></td>
 <td>&nbsp;</td>
-<td><a href="http://www.egi.eu/"><img width="300" src="http://www.egi.eu/export/system/modules/eu.egi.www/resources/d3/images/egiLOGO.gif" border="0" title="The European Grid Infrastructure web site"></a></td>
+<td><a href="http://www.egi.eu/"><img width="100" src="http://www.egi.eu/export/system/modules/eu.egi.www/resources/d3/images/egiLOGO.gif" border="0" title="The European Grid Infrastructure web site"></a></td>
 </tr>
 </table>
 </p>
