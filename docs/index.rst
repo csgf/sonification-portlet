@@ -110,15 +110,9 @@ A typical simulation produces, at the end, the following files:
 References
 ============
 
-.. _1: http://documents.ct.infn.it/record/421/files/Proceedings_Workshop_Finale.pdf
-.. _2: http://www.garr.it/eventiGARR/conf09/doc/SelectedPapers_Conf09.pdf
-.. _3: https://books.google.it/books?id=fZdGAAAAQBAJ&printsec=frontcover&hl=it
+.. _1: http://www.sciencedirect.com/science/article/pii/S187705091000044X
 
-* Final workshop of Grid Projects "Pon Ricerca 2000-2006, Avviso 1575": *"ASTRA Project Achievements: The reconstructed Greek Epigonion with GILDA/ASTRA brings history to life. It takes archaeological findings of extinct musical instruments, and lets us play them again thanks to a virtual digital model running on the GRID.EUMEDGRID on GEANT2/EUMEDCONNECT"* – February 10-12, 2009 Catania, Italy [1_];
-
-* Conferenza GARR: *"ASTRA Project: un ponte fra Arte/Musica e Scienza/Tecnologia - Conferenza GARR"* – September 2009, Napoli, Italy [2_];
-
-* International Symposium on Grid Computing 2009: *"The ASTRA (Ancient instruments Sound/Timbre Reconstruction Application) Project brings history to life"* – March 2010, Taipei, Taiwan [3_];
+* Proceedings of the International Conference on Computational Science, ICCS2010, doi:10.1016/j.procs.2010.04.043: *"Data sonification of volcano sesmograms and Sound/Timbre recountruction of ancient musical instruments with Grid infrastructures"* – May, 2010 Amsterdam, The Netherlands [1_];
 
 ============
 Support
