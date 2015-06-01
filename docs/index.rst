@@ -89,8 +89,6 @@ Each simulation will produce:
 
 - *.png*: a list of 3D rendering images produced with POVRay_ if enabled.
 
-.. _1: http://it.mathworks.com/
-
 .. image:: https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/logo_med
    :align: center
    :target: https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
