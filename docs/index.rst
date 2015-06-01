@@ -94,19 +94,18 @@ Each simulation will produce:
    :align: center
    :target: https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
 
-If *MIDI Analysis* is enabled, a compilation of functions for analyzing and visualizing MIDI files in the Matlab [1_] computing environment will be used
+If MIDI Analysis is enabled, a compilation of functions to analyze and visualize MIDI files in the Matlab ([1_]) computing environment will be used.
 
 A typical simulation produces, at the end, the following files:
 
 .. code:: bash
 
-        ]$ tree ASTRASoundTimbreReconstructionSimulationStarted_148681/
-        ASTRASoundTimbreReconstructionSimulationStarted_148681/
-        ├── AstraStk.err
-        ├── AstraStk.out
-        ├── bachfugue.wav (8.7M)
+        ]$ tree DataSonificationSimulationStarted_148682
+        DataSonificationSimulationStarted_148682/
+        ├── messages.mid
         ├── output.README
-        └── samples.tar.gz (589M)
+        ├── Text2Midi.err
+        └── Text2Midi.out
 
 ============
 References
