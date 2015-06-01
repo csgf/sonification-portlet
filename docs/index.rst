@@ -73,8 +73,8 @@ To run the  simulation the user has to:
 
 - select the input file (e.g. *.ski* or *.mid* files) OR select a demo from the list as shown in the below figure:
 
-.. image:: images/ASTRA_inputs.jpg
-      :align: center
+.. image:: images/SONIFICATION_inputs.jpg
+   :align: center
 
 Each simulation will produce:
 
@@ -84,9 +84,17 @@ Each simulation will produce:
 
 - *std.err*: the standard error file;
 
-- *.wav*: a MIDI file about an opera played using the Epigonion_;
+- *.wav*: the final MIDI file produced during the sonification process;
 
 - *.png*: a list of 3D rendering images produced with POVRay_ if enabled.
+
+.. _1: http://it.mathworks.com/
+
+.. image:: https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/logo_med
+   :align: center
+   :target: https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
+
+If *MIDI Analysis* is enabled, a compilation of functions for analyzing and visualizing MIDI files in the Matlab [1_] computing environment will be used
 
 A typical simulation produces, at the end, the following files:
 
@@ -121,7 +129,6 @@ Please feel free to contact us any time if you have any questions or comments.
 
 .. _INFN: http://www.ct.infn.it/
 .. _DANTE: http://www.dante.net/
-.. _MALAGA: http://www.uma.es/
 .. _4: http://www.conservatoriocimarosa.org/
 
 :Authors:
