@@ -79,6 +79,7 @@ To run the  simulation the user has to:
 Each simulation will produce:
 
 .. _POVRay: http://www.povray.org/
+.. _1: http://it.mathworks.com/
 
 - *std.txt*: the standard output file;
 
@@ -94,7 +95,7 @@ Each simulation will produce:
    :align: center
    :target: https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/miditoolbox/
 
-If MIDI Analysis is enabled, a compilation of functions to analyze and visualize MIDI files in the Matlab ([1_]) computing environment will be used.
+If MIDI Analysis is enabled, a compilation of functions to analyze and visualize MIDI files in the Matlab [1_] computing environment will be used.
 
 A typical simulation produces, at the end, the following files:
 
