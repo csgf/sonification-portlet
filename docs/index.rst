@@ -1,5 +1,5 @@
 *********************
-SONIFICATION v1.3.9 Docs
+SONIFICATION Docs
 *********************
 
 ============
