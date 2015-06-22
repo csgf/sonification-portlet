@@ -115,7 +115,7 @@ References
 * Proceedings of the International Conference on Computational Science, ICCS2010, doi:10.1016/j.procs.2010.04.043: *"Data sonification of volcano sesmograms and Sound/Timbre recountruction of ancient musical instruments with Grid infrastructures"* – May, 2010 Amsterdam, The Netherlands [1_];
 
 ============
-Contact
+Contributor(s)
 ============
 Please feel free to contact us any time if you have any questions or comments.
 
@@ -125,11 +125,11 @@ Please feel free to contact us any time if you have any questions or comments.
 
 :Authors:
 
- `Roberto BARBERA <mailto:roberto.barbera@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_),
+ Roberto BARBERA - Italian National Institute of Nuclear Physics (INFN_),
  
- `Giuseppe LA ROCCA <mailto:giuseppe.larocca@ct.infn.it>`_ - Italian National Institute of Nuclear Physics (INFN_),
+ Giuseppe LA ROCCA - Italian National Institute of Nuclear Physics (INFN_),
  
- `Mariapaola SORRENTINO <mailto:mariapaola.sorrentino@gmail.com>`_ - Conservatory of Music of Avellino ([4_]),
+ Mariapaola SORRENTINO - Conservatory of Music of Avellino ([4_]),
  
- `Domenico VICINANZA <mailto:domenico.vicinanza@dante.net>`_ - DANTE (DANTE_),
+ Domenico VICINANZA - DANTE (DANTE_)
 
