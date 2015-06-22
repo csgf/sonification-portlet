@@ -1,5 +1,5 @@
 *********************
-SONIFICATION Docs
+SONIFICATION
 *********************
 
 ============
@@ -115,7 +115,7 @@ References
 * Proceedings of the International Conference on Computational Science, ICCS2010, doi:10.1016/j.procs.2010.04.043: *"Data sonification of volcano sesmograms and Sound/Timbre recountruction of ancient musical instruments with Grid infrastructures"* – May, 2010 Amsterdam, The Netherlands [1_];
 
 ============
-Support
+Contact
 ============
 Please feel free to contact us any time if you have any questions or comments.
 
@@ -133,6 +133,3 @@ Please feel free to contact us any time if you have any questions or comments.
  
  `Domenico VICINANZA <mailto:domenico.vicinanza@dante.net>`_ - DANTE (DANTE_),
 
-:Version: v1.3.9, 2015
-
-:Date: June 1st, 2015 08:50
